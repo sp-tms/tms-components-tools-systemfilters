@@ -1,0 +1,58 @@
+{
+	"name" : "Filters",
+	"route" : "system/filters",
+	"description" : "<p>Manage filters via this component</p>",
+	"module_type" : "components",
+	"app_type" : "tms",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-tms/tms-components-tools-systemfilters",
+	"class" : "Apps\\Tms\\Components\\System\\Filters\\FiltersComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.15",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : [],
+		"externals" : [],
+		"apptype" : 
+		{
+			"name" : "Transport Management System",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-tms/tms"
+		}
+	},
+	"menu" : 
+	{
+		"seq" : 6,
+		"system" : 
+		{
+			"icon" : "cogs",
+			"title" : "system",
+			"childs" : 
+			{
+				"filters" : 
+				{
+					"title" : "filters",
+					"icon" : "filter",
+					"link" : "system/filters"
+				}
+			}
+		}
+	},
+	"widgets" : [],
+	"settings" : 
+	{
+		"mandatory" : 
+		{
+			"core" : true
+		}
+	}
+}
