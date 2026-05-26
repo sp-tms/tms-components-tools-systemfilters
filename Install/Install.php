@@ -6,12 +6,12 @@ use System\Base\BasePackage;
 
 class Install extends BasePackage
 {
-    public function install()
+    public function init()
     {
-        return true;
+        return $this;
     }
 
-    public function uninstall()
+    public function install()
     {
         return true;
     }
