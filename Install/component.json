@@ -18,7 +18,14 @@
 		},
 		"components" : [],
 		"packages" : [],
-		"middlewares" : [],
+		"middlewares" : 
+		[
+			{
+				"name" : "IpFilter",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-tms/tms-middlewares-tools-ipfilter"
+			}
+		],
 		"views" : [],
 		"external" : [],
 		"externals" : [],
@@ -48,6 +55,7 @@
 		}
 	},
 	"widgets" : [],
+	"filters" : [],
 	"settings" : 
 	{
 		"mandatory" : 
