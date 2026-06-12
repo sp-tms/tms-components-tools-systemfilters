@@ -2,7 +2,7 @@
 
 namespace Apps\Tms\Components\System\Filters;
 
-use Apps\Fintech\Packages\Adminltetags\Traits\DynamicTable;
+use Apps\Tms\Packages\Adminltetags\Traits\DynamicTable;
 use System\Base\BaseComponent;
 
 class FiltersComponent extends BaseComponent
